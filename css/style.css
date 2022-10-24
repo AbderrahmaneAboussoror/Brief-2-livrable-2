@@ -999,6 +999,7 @@ select::-ms-expand {
   margin-bottom: 17px;
   outline: none;
   border: 1px solid #f4a836;
+  box-sizing: border-box;
 }
 .btn1{
   display: inline-block;
@@ -1018,4 +1019,12 @@ select::-ms-expand {
 }
 .subscription{
   color: white;
+}
+@media(max-width : 1200px){
+  .contact-col{
+    flex-basis: 100%;
+  }
+  /* .contact-col input, .contact-col textarea{
+    flex-basis: 100%;
+  } */
 }
