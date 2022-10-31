@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -911,52 +914,8 @@ a:focus {
 .footer_section a {
   color: #9c9b9b;
 }
-select {
-  -webkit-appearance:none;
-  -moz-appearance:none;
-  -ms-appearance:none;
-  appearance:none;
-  outline:0;
-  box-shadow:none;
-  border: solid 1px;
-  background: #ffffff;
-  background-image: none;
-  flex: 1;
-  padding: 0 .5em;
-  color:rgb(0, 0, 0);
-  cursor:pointer;
-  font-size: 1em;
-  font-family: 'Open Sans', sans-serif;
-}
-select::-ms-expand {
-  display: none;
-}
-.select {
-  margin-top: 30px;
-  position: relative;
-  display: flex;
-  width: 20em;
-  height: 3em;
-  line-height: 3;
-  background: #ffffff;
-  overflow: hidden;
-  border-radius: .25em;
-  margin-left: 37%;
-}
-.select::after {
-  content: '\25BC';
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 0 1em;
-  background: #fb930a;
-  cursor:pointer;
-  pointer-events:none;
-  transition:.25s all ease;
-}
-.select:hover::after {
-  color: white;
-}
+
+
 .location{
   width: 80%;
   margin: auto;
@@ -1024,7 +983,4 @@ select::-ms-expand {
   .contact-col{
     flex-basis: 100%;
   }
-  /* .contact-col input, .contact-col textarea{
-    flex-basis: 100%;
-  } */
 }
